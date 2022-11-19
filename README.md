@@ -1,3 +1,5 @@
-# ayo I'm just a VRC user.
-# This is a private repository. At least, I hope it is.
-# So if you can see this, that's unpog.
+# VRC_OSC
+音声認識で自分のマイクの声を拾います
+感情の+-を判定します
+それに合わせてアバターのまばたきや羽のぱたぱたを制御します
+アバターのパラメーターは作者のアバターに調整されています
