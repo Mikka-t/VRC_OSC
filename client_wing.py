@@ -79,7 +79,7 @@ def wing_emo():
 			with open('communicate_VCrecog.json','w') as f:
 				json.dump(data_write,f)
 			print("now this is awkward")
-			time.sleep(10)
+			time.sleep(4)
 		elif patapata:
 			data_write = {"num":float(0.8),"patapata":False,"awkward":False,"positive":positive}
 			with open('communicate_VCrecog.json','w') as f:
@@ -90,13 +90,13 @@ def wing_emo():
 			print("flap: 1, 0.03")
 			flap(0.999,0.03)
 			print("patapata'd")
-			time.sleep(3+random.random())
+			time.sleep(1+random.random())
 		else:
 			for i in range(random.randint(1,2)):
 				print("flap: ",1-(i*0.2),", 0.01")
 				flap(0.999-(i*0.2),0.01+0.01*random.random())
 				time.sleep(0.2)
-			time.sleep(3+(1-freq)*5*(1+random.random())+2*random.random())
+			time.sleep(1+(1-freq)*(1+random.random())*2+random.random())
 
 
 # emotionとは独立に動く
